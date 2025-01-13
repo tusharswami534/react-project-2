@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React  from 'react'
 import { useSearchParams } from 'react-router-dom';
 
 const TabsTest = () => {
@@ -44,9 +44,6 @@ const TabsTest = () => {
                 <div key={i} className={`border border-solid border-black p-4 ${domain === tab.domain ? 'bg-red-500 text-white' : ''}`}>{tab.content}</div>
             ))}
             </div>
-        </div>
-        <div className='flex gap-4'>
-            <h1 className='border border-solid border-black p-4'>{Tushar}</h1>
         </div>
     </div>
   )

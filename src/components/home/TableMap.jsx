@@ -41,7 +41,7 @@ const TableMap = () => {
         },
     ]
   return (
-    <div className='min-h-screen flex justify-center items-center'>
+    <div className='min-h-screen flex justify-center items-center px-5'>
         <div className='bg-[#026070] max-w-[580px] overflow-auto px-4 py-12 rounded-xl'>
             <div className='flex'>
                 <div className='min-w-[140px] w-full'>
@@ -87,7 +87,7 @@ const TableMap = () => {
                         </div>
                         <div className='w-full border-t border-solid border-black'>
                             <div className={`max-w-[92.31px] rounded-b-[6px] bg-white min-h-[53.59px] flex flex-col justify-center items-center w-full ${index === 3 ? '!bg-[#56E3CB]' : ''}`}>
-                                <p className={`text-[8px]  text-center ${index === 0 ? 'max-w-[32px]' : index === 1 ? 'max-w-[31px]' : index === 2 ? 'max-w-[48px]' : index === 3 ? 'max-w-[65px] text-left' : ''}`}>{data.fee}</p>
+                                <p className={`text-[8px]  text-center ${index === 0 ? 'max-w-[33px]' : index === 1 ? 'max-w-[31px]' : index === 2 ? 'max-w-[48px]' : index === 3 ? 'max-w-[65px] text-left' : ''}`}>{data.fee}</p>
                             </div>
                         </div>
                     </div>
